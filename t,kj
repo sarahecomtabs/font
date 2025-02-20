@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'TS Burda Pro ExtraLight C Regular'; /* اسم الخط */
+    src: url('https://rawcdn.githack.com/sarahecomtabs/font/85d3b3d4c8d1713171379e85c0652e7ec310d497/font.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* تطبيق الخط على جميع عناصر الموقع */
+body, h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, select, label {
+    font-family: 'TS Burda Pro ExtraLight C Regular', sans-serif !important;
+}
