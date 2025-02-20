@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'TS Burda Pro';
+    src: url('https://raw.githubusercontent.com/sarahecomtabs/font/main/TSBurdaPro-SemiBoldC.woff2') format('woff2'),
+         url('https://raw.githubusercontent.com/sarahecomtabs/font/main/TSBurdaPro-SemiBoldC.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* تطبيق الخط على جميع عناصر الصفحة */
+body, h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, select, label {
+    font-family: 'TS Burda Pro', sans-serif !important;
+}
